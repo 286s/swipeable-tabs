@@ -12,8 +12,8 @@ A simple UITabBarController Category which allows changing tabs with left and ri
           // Override point for customization after application launch.
           
           UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
-            [tabBarController setupSwipeGestureRecognizersAllowCyclingTabs:YES];
-            return YES;
+          [tabBarController setupSwipeGestureRecognizersAllowCyclingTabs:YES];
+          return YES;
         }
 
 
